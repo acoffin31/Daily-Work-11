@@ -1,9 +1,5 @@
-import matplotlib.pyplot as plt
-import math
+x = 510
+y = 510
+c = (x + y)
+print(c)
 
-x = (1, 2, 3, 4, 5)
-y = []
-for xs in x:
-    y.append(math.sin(xs))
-plt.plot(x, y)
-plt.show()
